@@ -1,14 +1,14 @@
 # What's Stroking Your Brain?
 
-Every 40 seconds, someone in the United States suffers from a stroke. 
+<p>Every 40 seconds, someone in the United States suffers from a stroke. </p>
 <br>
-In fact, if you've already had a stroke, you are 25% more likely to have another one. 
+<p>In fact, if you've already had a stroke, you are 25% more likely to have another one. </p> 
 <br>
-While numerous studies have been done on trying to figure out what triggers strokes in various individuals, 
+<p>While numerous studies have been done on trying to figure out what triggers strokes in various individuals, </p>
 <br>
-But what if there was a way to predict the probabilty of a stroke before it even occurs?
+<p>But what if there was a way to predict the probabilty of a stroke before it even occurs? </p>
 <br>
-Using the brain stroke prediction data set from kaggle (https://www.kaggle.com/datasets/zzettrkalpakbal/full-filled-brain-stroke-dataset?select=full_data.csv), we wanted to see if we can use supervised machine learning to see what categories play more into  values
+<p>Using the brain stroke prediction data set from kaggle (https://www.kaggle.com/datasets/zzettrkalpakbal/full-filled-brain-stroke-dataset?select=full_data.csv), we wanted to see if we can use supervised machine learning to see what categories play more into  values </p>
 <br>
 <hr>
 
@@ -24,14 +24,12 @@ Using the brain stroke prediction data set from kaggle (https://www.kaggle.com/d
 <li>PANDAS</li>
 <li>Matplotlib</li>
 <li>Sklearn</li>
-<li></li>
 <br>
 <hr>
 <b><u>Languages Used:</u></b>
 <li>Python</li>
 <li>HTML</li>
 <li>Javascript</li>
-<li></li>
 <br>
 <hr>
 <u><b>Cleaning Up The Data Set:</b></u>
@@ -46,3 +44,4 @@ Using the brain stroke prediction data set from kaggle (https://www.kaggle.com/d
 <hr>
 <u><b>Creating The fUZZbEED Quiz:</b></u>
 <p>
+</p>
