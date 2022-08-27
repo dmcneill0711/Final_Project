@@ -47,11 +47,12 @@
 				    <!-- Menu Links -->
 					<div class="icon-list">
 						<a href="./index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-						<a href="./index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-						<a href="./index.html#services"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-						<a href="./index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
-						<a href="./index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Blog</span></a>
-						<a href="./index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+						<a href="./index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>Quiz</span></a>
+						<a href="./index.html#services"><i class="fa fa-fw fa-globe"></i><span>Analysis</span></a>
+						<a href="./index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Visuals</span></a>
+            <a href="./index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
+						<a href="./index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Data</span></a>
+						
 					</div>
 				</nav>
 			    </div>
@@ -71,10 +72,10 @@
               <div class="row">
                 <div class="col-md-8 col-md-offset-1 inner">
                   <h1 class="animated fadeInDown">
-                    J<span style="color:#E04343;">o</span>hn<br/>
-                    <span>D<span style="color:#FFE800">o</span>e</span>
+                    <span style="color:#eeb4dd;">fUZZ</span><br/>
+                    <span><span style="color:#8ae3be">bEED</span></span>
                   </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Designer,Photographer,3d Artist</span></h3><!-- Text Rotator -->
+                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Machine Learning,Stroke Prediction,Random Forest</span></h3><!-- Text Rotator -->
                 </div>
               </div>
 			  <!-- Learn More Button -->
@@ -109,14 +110,69 @@
 				<!-- about / welcome text -->
                 <p>Every 40 seconds, someone in the United States suffers from a stroke. 
                   While numerous studies have been done on trying to figure out what triggers strokes amoung 
-                  various individuals, there are a few risk that increase your chances (age, avg blood glucose, and bmi). 
-                  But, what if there was a way to predict YOUR RISK of a stroke? <a href= "#">TAKE THE QUIZ</a></p>
+                  various individuals, there are a few risk that increase your chances. 
+                  But, what if there was a way to predict YOUR RISK of a stroke? <a href= "quiz.html">TAKE THE QUIZ</a></p>
+                  <!-- Begin main -->
+    <main>
+          
+      <br>
+      <br>
+      <!-- Begin container -->
+      <div class="container">
+
+          <!-- Begin card -->
+          <div class="card shadow rounded border-info"> 
+                              
+              <!-- Begin body -->
+              <div class="card-body">
+                  
+                  <!-- card title -->
+                  <h2 class="card-title mb-4 text-info text-center" id="title">Are You At Risk Of A Stroke?</h2>
+          
+                  <hr class="line">
+                  
+                  <div class="row">
+                      
+                      <div class="col-md-1">
+                      </div>
+
+                      <div class="col-md-10">
+                          
+                          <div id="mainContent">
+                              
+                              <h5 class="text-center">
+                                  <b>Take Our Quick 3 Question Quiz To Find Out</b>
+                              </h5>
+                              <br>
+                              <div class="text-center">
+                                  <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
+                              </div>
+
+                          </div>
+
+                          <div id = "quizContent"></div>
+                          <div id = "score"></div>
+                          <!-- <div id = "highscores"> </div> -->
+                      
+                      </div>
+                  </div>
+                                    
+                  <div id="answer">
+                       <hr class="line">
+                  </div>    
+
+              </div>
+          </div>               
+      
+      </div>
+      <br>
+  <!-- End main -->
+  </main>
+
               </div>
             </div>
           </div>
         </section>
-
-
 
 
 <!-- ==========================
@@ -179,7 +235,7 @@
 				</div>
 				<div class="col-md-6 about-text">
 					<h6>High quality webdesign</h6><!-- headline-->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
+					<p><div class='tableauPlaceholder' id='viz1661614593562' style='position: relative'><noscript><a href='#'><img alt='Stroke Count Heatmap ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeCountHeatMap&#47;StrokeCountHeatmap&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StrokeCountHeatMap&#47;StrokeCountHeatmap' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeCountHeatMap&#47;StrokeCountHeatmap&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661614593562');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></p><br><!-- About Text 1 -->
 					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
 				</div>
 			</div>
@@ -619,6 +675,9 @@
 	<!-- Theme JavaScript Core -->
 	<script src="./html_folder/js/main.js"></script>
 	<script src="./html_folder/js/script.js"></script>
+  <!-- QUIZ Scripts-->
+  <script src="./html_folder/js/questions.js"></script>
+  <script src="./html_folder/js/script.js"></script>
 
 	<!-- GOOGLE MAPS DATA -->
     <script type="text/javascript">
