@@ -25,7 +25,7 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: #eeb4dd;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
@@ -79,7 +79,7 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* == Remove excess height in iOS 5 devices.== */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -131,7 +131,7 @@ h4 {
 	margin:1.33em 0;
 }
 h5 {
-	font-size:0.83em;
+	font-size: 16px;
 	margin:1.67em 0;
 }
 h6 {
@@ -238,7 +238,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -293,9 +293,9 @@ table {
 }
 .dark-box {
 	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
+	-webkit-box-shadow: 0px 3px 0px 0px #eeb4dd;
+	-moz-box-shadow: 0px 3px 0px 0px #eeb4dd;
+	box-shadow: 0px 3px 0px 0px #eeb4dd;
 	padding:20px 0;
 }
 .dark-box:hover,.dark-box:focus {
@@ -329,7 +329,7 @@ table {
 	outline:none!important;
 }
 .menu-wrap a:hover,.menu-wrap a:focus {
-	color: #E04343;
+	color: #eeb4dd;
 }
 .content-wrap {
 	overflow-y:scroll;
@@ -369,7 +369,7 @@ table {
 	right:0.5em;
 	bottom:0.5em;
 	left:0.5em;
-	background: linear-gradient(#E04343 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#E04343 40%,#E04343 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#E04343 80%);
+	background: linear-gradient(#eeb4dd 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#eeb4dd 40%,#eeb4dd 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#eeb4dd 80%);
 	content:'';
 }
 .menu-button:hover {
@@ -424,7 +424,7 @@ table {
 	transform:translate3d(0,0,0);
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #eeb4dd;
 }
 .show-menu .icon-list a {
 	opacity:1;
@@ -453,16 +453,16 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/stroke_main.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
-	height:auto;
+	height: 780px;
 	background-color: #FBFBFB;
 }
 .hero h1 {
 	font-size: 120px;
 	letter-spacing: -8px;
-	margin: 0;
+	margin: 0px;
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
@@ -474,7 +474,7 @@ table {
 .hero h3 {
 	font-size: 20px;
 	margin:0;
-	padding:0;
+	padding: 0;
 	opacity:0.5;
 	color: #eeb4dd;
 	letter-spacing: 18px;
@@ -483,7 +483,7 @@ table {
 }
 .hero p {
 	letter-spacing:1px;
-	color:#fff;
+	color:#8ae3be;
 	font-size: 15px;
 }
 /* Boucing Arrow Animation */
@@ -538,7 +538,7 @@ table {
 .scrollto {
 	padding: 150px 0px 0px 0px;
 	display:block;
-	color:#FFF;
+	color:#8ae3be;
 	text-decoration:none;
 	width:200px;
 	margin:0 auto;
@@ -579,7 +579,7 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #d782be;
 }
 
 .color-bg a {
@@ -609,7 +609,7 @@ h1.arrow span {
 	color: #8C8C8C;
 }
 .color-bg h1.arrow span {
-    color: #FFE800;
+    color: #8ae3be;
 }
 .color-bg h1.arrow {
     color: #FFF;
@@ -633,12 +633,12 @@ h1.arrow span {
 	margin-bottom:40px;
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
-	border: 1px solid #E04343;
-	color: #E04343;
+	border: 1px solid #eeb4dd;
+	color: #eeb4dd;
 }
 .services .item:hover .icon {
-	background: #E04343;
-	border: 1px solid #E04343;
+	background: #eeb4dd;
+	border: 1px solid #eeb4dd;
 }
 .services .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
@@ -855,7 +855,7 @@ img.grayscale:hover {
 	background: #FFE800;
 	border: solid 1px #FFE800;
 	padding:20px;
-	color: #E04343;
+	color: #eeb4dd;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	transition:all 0.5s ease;
@@ -866,11 +866,11 @@ img.grayscale:hover {
 .subscribe input[type=submit]:hover {
 	background: rgba(255, 232, 0, 0.9);
 	border: solid 1px #FFE800;
-	color: #E04343;
+	color: #eeb4dd;
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #eeb4dd;
 	padding:70px 0;
 }
 .outline-btn {
@@ -883,8 +883,8 @@ img.grayscale:hover {
 	letter-spacing:1px;
 }
 .outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
+	color: #eeb4dd;
+	border: solid 1px #eeb4dd;
 	background: #FFE801;
 }
 .weight-outline-btn {
@@ -919,7 +919,7 @@ ul.social-buttons li:last-child {
 .social-btn {
 	width:40px;
 	height:40px;
-	background: #E04343;
+	background: #eeb4dd;
 	display:inline-block;
 	color:#fff;
 	font-size:17px;
@@ -928,7 +928,7 @@ ul.social-buttons li:last-child {
 }
 .social-btn:hover,.social-btn:focus {
 	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+	color: #eeb4dd;
 }
 .social {
 	margin-top: 25px
@@ -940,7 +940,7 @@ ul.social-buttons li:last-child {
 	background: rgba(255, 232, 1, 0.9);
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #eeb4dd;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -1016,7 +1016,7 @@ ul.social-buttons li:last-child {
 
 .btn-send:hover{
 	background: #FFE800;
-	color: #E04343
+	color: #eeb4dd
 }
 
 button,button:focus,button:hover,button:active {
@@ -1075,8 +1075,8 @@ ul.slides li {
 	font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+    background: #eeb4dd;
+    border-color: #eeb4dd;
 }
 
 .color-bg .flex-control-paging li a{

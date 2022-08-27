@@ -270,28 +270,18 @@ function viewResult(){
     scoreDiv.appendChild(s);
 
 // Tell Them What Their Results Mean (Basically: <p></p> and appending)
-    var highRisk = document.createElement("p");
-    highRisk.textContent = "HIGH RISK!";
-    scoreDiv.appendChild(highRisk);
+    
 
     var highRiskResults = document.createElement("p");
-    highRiskResults.textContent = "If You Scored Over 6, you are considered to be a high risk for having a stroke.";
+    highRiskResults.textContent = "If You Scored Over 6, you are considered to be a HIGH RISK for having a stroke.";
     scoreDiv.appendChild(highRiskResults);
 
-    var mediumRisk = document.createElement("p");
-    mediumRisk.textContent = "MEDIUM RISK!";
-    scoreDiv.appendChild(mediumRisk);
-
     var mediumRiskResults = document.createElement("p");
-    mediumRiskResults.textContent = "If You Scored Between 3 And 6, you are considered to be a medium risk for having a stroke.";
+    mediumRiskResults.textContent = "If You Scored Between 3 And 6, you are considered to be a MEDIUM RISK for having a stroke.";
     scoreDiv.appendChild(mediumRiskResults);
 
-    var lowRisk = document.createElement("p");
-    lowRisk.textContent = "LOW RISK!";
-    scoreDiv.appendChild(lowRisk);
-
     var lowRiskResults = document.createElement("p");
-    lowRiskResults.textContent = "If You Scored Below A 3, you are considered to be a low risk for having a stroke. ";
+    lowRiskResults.textContent = "If You Scored Below A 3, you are considered to be a LOW RISK for having a stroke. ";
     scoreDiv.appendChild(lowRiskResults);
     
     form.appendChild(label);
