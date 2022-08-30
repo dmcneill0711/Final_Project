@@ -29,9 +29,7 @@
     <script src="assets/respond/respond.min.js"></script>
     <![endif]-->
   </head>
-  <!-- Magnifier Test -->
     <body id="top">
-      <div onclick="toggleZoomScreen125()" >
   <!-- End -->
 
       <!-- ****************************** Preloader ************************** -->
@@ -55,11 +53,11 @@
 						<a href="./index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Visuals</span></a>
             <a href="./index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
 						<a href="./index.html#blog"><i class="fa fa-fw fa-rss"></i><span>Data</span></a>
-						
 					</div>
 				</nav>
 			    </div>
 			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+          <img id="mag-glass" src="html_folder/img/pink_mag.jpg" alt="Magnifying Glass" style="width:35px;height:35px;">
               </div><!--/row-->
             </div><!--/container-->
 		  <!-- Header Image -->
@@ -139,11 +137,11 @@
                                       <h5 class="text-center">
                                           <b style="color: white;">Take Our Quick 3 Question Quiz To Find Out</b>
                                       </h5>
-                                      <div onclick="event.stopPropagation()">
+                                      <div>
                                           <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
                                       </div>
                                   </div>
-                                  <div onclick="event.stopPropagation()" id = "quizContent"></div>
+                                  <div id = "quizContent"></div>
                                   <div id = "score"></div>
                               </div>
                           </div>         
@@ -223,7 +221,7 @@
           <p>&ensp;&ensp;&ensp;<b>3)</b> BMI: ~21% (0.208355)</p>
           <p><b> THAT'S <i>77%</i> OF THE MODEL!!!</b></p>
           <p>&ensp;&ensp;The other 10 variables make up the other 23%, which averages out to about 2.3% per variable. Since that is such a <b>HUGE DIFFERENCE</b> compared to the third highest variable <i>(almost 10x the difference)</i>, we decided to eliminate any questions pertaining to those from our quiz. </p><br><!-- About Text 1 -->
-					<a onclick="event.stopPropagation()" href="https://github.com/dmcneill0711/What-s_Stroking_Your_Brain/blob/main/data/SML_Model.ipynb" target="_blank" class="weight-outline-btn">View Code</a><!-- read more button  -->			
+					<a href="https://github.com/dmcneill0711/What-s_Stroking_Your_Brain/blob/main/data/SML_Model.ipynb" target="_blank" class="weight-outline-btn">View Code</a><!-- read more button  -->			
 				</div>
 			</div>
 			<!-- About 2 -->
@@ -242,7 +240,7 @@
               </ul>
               
           </p><br><!-- About Text 2 -->
-					<a onclick="event.stopPropagation()" href="https://public.tableau.com/views/StrokeCountHeatMap_16616559479770/StrokeCountvsBMIandAge?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a>	<!-- read more button  -->				
+					<a href="https://public.tableau.com/views/StrokeCountHeatMap_16616559479770/StrokeCountvsBMIandAge?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a>	<!-- read more button  -->				
 				</div>
 				<div class="col-md-6 nopadding features-intro-img">
 					<div class="about-image"><p><div class='tableauPlaceholder' id='viz1661717056709' style='position: relative'><noscript><a href='#'><img alt='Stroke Count vs BMI and Age ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeRiskPrediction&#47;StrokeCountvsBMIandAge&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StrokeRiskPrediction&#47;StrokeCountvsBMIandAge' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeRiskPrediction&#47;StrokeCountvsBMIandAge&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661717056709');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div><!-- about image 2 -->
@@ -275,7 +273,7 @@
             <li>Underweight = Below 18.5</li> </ul> 
           <p><i>**BMIs Binned According To <a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html" target="_blank">CDC.gov</a>.</i></p>
          </p><!-- About Text 3 -->
-					<a onclick="event.stopPropagation()" href="https://public.tableau.com/shared/6TZ6HGTS8?:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a><!-- read more button  -->					
+					<a href="https://public.tableau.com/shared/6TZ6HGTS8?:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a><!-- read more button  -->					
 				</div>
 			</div>
 		</div>
@@ -304,7 +302,7 @@
           <div class="row row-offset-0">
   				 
           <!-- PORTFOLIO ITEM 1 -->
-          <div class="col-md-3 col-sm-6">
+          <div id="halt" class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
                       <a href="./html_folder/img/portfolio/rf_model_scores.jpg" data-lightbox="roadtrip" title="Machine Learning - Random Forest Model">
@@ -458,7 +456,7 @@
 		<!-- ==========================
         CUSTOM SPACER
         =========================== -->
-		<div onclick="event.stopPropagation()" class="spacer-cta text-center">
+		<div class="spacer-cta text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -585,24 +583,24 @@
             <div class="col-md-4">
               <div class="dark-box box-hover">
                 <h2><i class="fa fa-user-circle"></i><span>Tanisha Cooper</span></h2>
-                <p><a onclick="event.stopPropagation()" href="https://github.com/TanishaCooper" target="_blank">GitHub</a></p>
-                <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/tanisha-cooper-5b3743197/" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/TanishaCooper" target="_blank">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/tanisha-cooper-5b3743197/" target="_blank">LinkedIn</a></p>
               </div>
             </div>
 			  <!-- Phone Number Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-user-circle"></i><span>Diandra McNeill</span></h2>
-                  <p><a onclick="event.stopPropagation()" href="https://github.com/dmcneill0711" target="_blank">GitHub</a></p>
-                  <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/diandra-mcneill-765410233/" target="_blank">LinkedIn</a></p>
+                  <p><a href="https://github.com/dmcneill0711" target="_blank">GitHub</a></p>
+                  <p><a href="https://www.linkedin.com/in/diandra-mcneill-765410233/" target="_blank">LinkedIn</a></p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-user-circle"></i><span>Anna Pettigrew</span></h2>
-                  <p><a onclick="event.stopPropagation()" href="https://github.com/annapettigrew" target="_blank">GitHub</a></p>
-                  <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/anna-pettigrew/" target="_blank">LinkedIn</a></p>
+                  <p><a href="https://github.com/annapettigrew" target="_blank">GitHub</a></p>
+                  <p><a href="https://www.linkedin.com/in/anna-pettigrew/" target="_blank">LinkedIn</a></p>
                 </div>
               </div>
             </div>
@@ -715,8 +713,5 @@
       speed: 2000 // How many milliseconds until the next word show.
     });
     </script>
-<!-- Magnifier Test -->
-	</div>
-<!-- End -->
     </body>
 </html>

@@ -290,10 +290,11 @@ function viewResult(){
 //Start Button Event Listener On Start Page Which Starts The Quiz
 startButton.addEventListener("click",startQuiz);
 
+function startQuiz(){    
+    buildQuestion();  
+}
 
-// Magnifier Test
-function toggleZoomScreen125() {
-
+document.querySelector("#mag-glass").addEventListener("click", function() {
 	if(document.body.style.zoom == "")
 	{
 		document.body.style.zoom = "100%";
@@ -310,4 +311,4 @@ function toggleZoomScreen125() {
 	{
 		document.body.style.zoom = "100%";
 	}
-};
+});
