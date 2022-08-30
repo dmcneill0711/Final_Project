@@ -39,6 +39,7 @@
 
 <p> Using a template for the website (Link: https://themewagon.com/themes/johndoe-free-one-page-portfolio-website-template/) and editing the code for the quiz from Gauri Khandke (https://github.com/GauriKhandke/Gauri-code-quiz), we developed the front page of fUZZbEED to be not only educational, but also relatable. The quiz is now a 3 question quiz with 3 possible responses per question, no time limit, and instead of only adding 1 point for the correct question, it adds a different number of points correlating to the risk assessment value of each response (with a maximum number of 9 points available). Following the quiz is not only an analysis of our model, but also a few interactive Tableau charts that also correlate with our findings. We wanted to keep everything casual, emulating those older websites that became popular with their endless quizzes and listicles, while providing information to those in search of it.
 </p>
+<p> Click Here To Visit The Site: https://dmcneill0711.github.io/What-s_Stroking_Your_Brain/ </p>
 <br>
 <hr>
 <u><b>Contributors:</b></u>
