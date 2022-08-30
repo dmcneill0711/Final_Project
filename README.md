@@ -1,5 +1,4 @@
 # What's Stroking Your Brain?
-<hr>
 <p>Every 40 seconds, someone in the United States suffers from a stroke. </p>
 <br>
 <p>In fact, if you've already had a stroke, you are 25% more likely to have another one. </p> 
