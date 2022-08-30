@@ -29,7 +29,10 @@
     <script src="assets/respond/respond.min.js"></script>
     <![endif]-->
   </head>
+  <!-- Magnifier Test -->
     <body id="top">
+      <div onclick="toggleZoomScreen125()" >
+  <!-- End -->
 
       <!-- ****************************** Preloader ************************** -->
       <div id="preloader"></div>
@@ -38,7 +41,7 @@
 	  	<!-- ==========================
         HEADER SECTION 
         =========================== -->
-        <header id="home">
+        <header onclick="event.stopPropagation()" id="home">
 		    <!-- creative menu -->
             <div class="container-fluid">
               <div class="row">
@@ -134,13 +137,12 @@
                                           <b style="color: white;">Take Our Quick 3 Question Quiz To Find Out</b>
                                       </h5>
                                       <br>
-                                      <div class="text-center">
+                                      <div onclick="event.stopPropagation()" class="text-center" >
                                           <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
                                       </div>
                                   </div>
-                                  <div id = "quizContent"></div>
+                                  <div onclick="event.stopPropagation()" id = "quizContent"></div>
                                   <div id = "score"></div>
-                                  <!-- <div id = "highscores"> </div> -->
                               </div>
                           </div>         
                           <div id="answer">
@@ -219,7 +221,7 @@
           <p>&ensp;&ensp;&ensp;<b>3)</b> BMI: ~21% (0.208355)</p>
           <p><b> THAT'S <i>77%</i> OF THE MODEL!!!</b></p>
           <p>&ensp;&ensp;The other 10 variables make up the other 23%, which averages out to about 2.3% per variable. Since that is such a <b>HUGE DIFFERENCE</b> compared to the third highest variable <i>(almost 10x the difference)</i>, we decided to eliminate any questions pertaining to those from our quiz. </p><br><!-- About Text 1 -->
-					<a href="https://github.com/dmcneill0711/What-s_Stroking_Your_Brain/blob/main/data/SML_Model.ipynb" target="_blank" class="weight-outline-btn">View Code</a><!-- read more button  -->			
+					<a onclick="event.stopPropagation()" href="https://github.com/dmcneill0711/What-s_Stroking_Your_Brain/blob/main/data/SML_Model.ipynb" target="_blank" class="weight-outline-btn">View Code</a><!-- read more button  -->			
 				</div>
 			</div>
 			<!-- About 2 -->
@@ -238,7 +240,7 @@
               </ul>
               
           </p><br><!-- About Text 2 -->
-					<a href="https://public.tableau.com/views/StrokeCountHeatMap_16616559479770/StrokeCountvsBMIandAge?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a>	<!-- read more button  -->				
+					<a onclick="event.stopPropagation()" href="https://public.tableau.com/views/StrokeCountHeatMap_16616559479770/StrokeCountvsBMIandAge?:language=en-US&:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a>	<!-- read more button  -->				
 				</div>
 				<div class="col-md-6 nopadding features-intro-img">
 					<div class="about-image"><p><div class='tableauPlaceholder' id='viz1661717056709' style='position: relative'><noscript><a href='#'><img alt='Stroke Count vs BMI and Age ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeRiskPrediction&#47;StrokeCountvsBMIandAge&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='StrokeRiskPrediction&#47;StrokeCountvsBMIandAge' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;St&#47;StrokeRiskPrediction&#47;StrokeCountvsBMIandAge&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1661717056709');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div><!-- about image 2 -->
@@ -271,7 +273,7 @@
             <li>Underweight = Below 18.5</li> </ul> 
           <p><i>**BMIs Binned According To <a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html" target="_blank">CDC.gov</a>.</i></p>
          </p><!-- About Text 3 -->
-					<a href="https://public.tableau.com/shared/6TZ6HGTS8?:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a><!-- read more button  -->					
+					<a onclick="event.stopPropagation()" href="https://public.tableau.com/shared/6TZ6HGTS8?:display_count=n&:origin=viz_share_link" target="_blank" class="weight-outline-btn">Interactive Chart</a><!-- read more button  -->					
 				</div>
 			</div>
 		</div>
@@ -303,7 +305,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./html_folder/img/portfolio/rf_model_scores.jpg" data-lightbox="roadtrip" title="Machine Learning - Random Forest Model"><img class="grayscale" src="./html_folder/img/portfolio/rf_model_scores_thumbnail.jpg" alt="Random Forest Classifier Model"></a>
+                      <a href="./html_folder/img/portfolio/rf_model_scores.jpg" data-lightbox="roadtrip" title="Machine Learning - Random Forest Model">
+                        <img class="grayscale" src="./html_folder/img/portfolio/rf_model_scores_thumbnail.jpg" alt="Random Forest Classifier Model">
+                      </a>
                   </div>
               </div>
           </div>
@@ -313,7 +317,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./Images/correlation_map.png" data-lightbox="roadtrip" title="Stroke Risk Correlation Map"><img class="grayscale" src="./Images/correlation_map_thumbnail.png" alt="Correlation Map"></a>
+                      <a href="./Images/correlation_map.png" data-lightbox="roadtrip" title="Stroke Risk Correlation Map">
+                        <img class="grayscale" src="./Images/correlation_map_thumbnail.png" alt="Correlation Map">
+                      </a>
                   </div>
               </div>
           </div>
@@ -323,7 +329,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./Images/seaborn_pairgrid.png" data-lightbox="roadtrip" title="Seaborn Pair Grid"><img class="grayscale" src="./Images/seaborn_pairgrid_thumbnail.png" alt="Seaborn Pair Grid"></a>
+                      <a href="./Images/seaborn_pairgrid.png" data-lightbox="roadtrip" title="Seaborn Pair Grid">
+                        <img class="grayscale" src="./Images/seaborn_pairgrid_thumbnail.png" alt="Seaborn Pair Grid">
+                      </a>
                   </div>
               </div>
           </div>
@@ -333,7 +341,9 @@
           <div class="col-md-3 col-sm-6 ">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./Images/import_feat.png" data-lightbox="roadtrip" title="Important Features"><img class="grayscale" src="./Images/import_feat_thumbnail.png" alt="RF Important Features"></a>
+                      <a href="./Images/import_feat.png" data-lightbox="roadtrip" title="Important Features">
+                        <img class="grayscale" src="./Images/import_feat_thumbnail.png" alt="RF Important Features">
+                      </a>
                   </div>
               </div>
           </div>
@@ -343,7 +353,9 @@
           <div class="col-md-3 col-sm-6 ">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./html_folder/img/portfolio/stroke_marital.jpg" data-lightbox="roadtrip" title="Stroke Risk by Marital Status"><img class="grayscale" src="./html_folder/img/portfolio/stroke_marital_thumbnail.jpg" alt="Stroke Risk by Marital Status"></a>
+                      <a href="./html_folder/img/portfolio/stroke_marital.jpg" data-lightbox="roadtrip" title="Stroke Risk by Marital Status">
+                        <img class="grayscale" src="./html_folder/img/portfolio/stroke_marital_thumbnail.jpg" alt="Stroke Risk by Marital Status">
+                      </a>
                   </div>
               </div>
           </div>
@@ -353,7 +365,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./html_folder/img/portfolio/stroke_gender.jpg" data-lightbox="roadtrip" title="Stroke Risk by Gender"><img class="grayscale" src="./html_folder/img/portfolio/stroke_gender_thumbnail.jpg" alt="Stroke Risk by Gender"></a>
+                      <a href="./html_folder/img/portfolio/stroke_gender.jpg" data-lightbox="roadtrip" title="Stroke Risk by Gender">
+                        <img class="grayscale" src="./html_folder/img/portfolio/stroke_gender_thumbnail.jpg" alt="Stroke Risk by Gender">
+                      </a>
                   </div>
               </div>
           </div>
@@ -363,7 +377,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./html_folder/img/portfolio/stroke_residence.jpg" data-lightbox="roadtrip" title="Stroke Risk by Residence Type"><img class="grayscale" src="./html_folder/img/portfolio/stroke_residence_thumbnail.jpg" alt="Stroke Risk by Residence Type"></a>
+                      <a href="./html_folder/img/portfolio/stroke_residence.jpg" data-lightbox="roadtrip" title="Stroke Risk by Residence Type">
+                        <img class="grayscale" src="./html_folder/img/portfolio/stroke_residence_thumbnail.jpg" alt="Stroke Risk by Residence Type">
+                      </a>
                   </div>
               </div>
           </div>
@@ -373,7 +389,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                   <div class="img">
-                      <a href="./html_folder/img/portfolio/stroke_work_type.jpg" data-lightbox="roadtrip" title="Stroke Risk by Work Type"><img class="grayscale" src="./html_folder/img/portfolio/stroke_work_type_thumbnail.jpg" alt="Stroke Risk by Work Type"></a>
+                      <a href="./html_folder/img/portfolio/stroke_work_type.jpg" data-lightbox="roadtrip" title="Stroke Risk by Work Type">
+                        <img class="grayscale" src="./html_folder/img/portfolio/stroke_work_type_thumbnail.jpg" alt="Stroke Risk by Work Type">
+                      </a>
                   </div>
               </div>
           </div>
@@ -383,7 +401,9 @@
         <div class="col-md-3 col-sm-6">
           <div class="overlay-effect effects clearfix">
               <div class="img">
-                  <a href="./html_folder/img/portfolio/stroke_smoking_thumbnail.jpg" data-lightbox="roadtrip" title="Stroke Risk by Smoking Status"><img class="grayscale" src="./html_folder/img/portfolio/stroke_smoking_thumbnail.jpg" alt="Stroke Risk by Smoking Status"></a>
+                  <a href="./html_folder/img/portfolio/stroke_smoking_thumbnail.jpg" data-lightbox="roadtrip" title="Stroke Risk by Smoking Status">
+                    <img class="grayscale" src="./html_folder/img/portfolio/stroke_smoking_thumbnail.jpg" alt="Stroke Risk by Smoking Status">
+                  </a>
               </div>
           </div>
       </div>
@@ -393,7 +413,9 @@
         <div class="col-md-3 col-sm-6">
           <div class="overlay-effect effects clearfix">
               <div class="img">
-                  <a href="./html_folder/img/portfolio/stroke_hyptension.jpg" data-lightbox="roadtrip" title="Stroke Risk by Hypertension"><img class="grayscale" src="./html_folder/img/portfolio/stroke_hyptension_thumbnail.jpg" alt="Stroke Risk by Hypertension"></a>
+                  <a href="./html_folder/img/portfolio/stroke_hyptension.jpg" data-lightbox="roadtrip" title="Stroke Risk by Hypertension">
+                    <img class="grayscale" src="./html_folder/img/portfolio/stroke_hyptension_thumbnail.jpg" alt="Stroke Risk by Hypertension">
+                  </a>
               </div>
           </div>
       </div>
@@ -403,7 +425,9 @@
         <div class="col-md-3 col-sm-6">
           <div class="overlay-effect effects clearfix">
               <div class="img">
-                  <a href="./html_folder/img/portfolio/stroke_heart_disease.jpg" data-lightbox="roadtrip" title="Stroke Risk by Heart Disease"><img class="grayscale" src="./html_folder/img/portfolio/stroke_heart_disease_thumbnail.jpg" alt="Stroke Risk by Heart Disease"></a>
+                  <a href="./html_folder/img/portfolio/stroke_heart_disease.jpg" data-lightbox="roadtrip" title="Stroke Risk by Heart Disease">
+                    <img class="grayscale" src="./html_folder/img/portfolio/stroke_heart_disease_thumbnail.jpg" alt="Stroke Risk by Heart Disease">
+                  </a>
               </div>
           </div>
       </div>
@@ -413,7 +437,9 @@
         <div class="col-md-3 col-sm-6">
           <div class="overlay-effect effects clearfix">
               <div class="img">
-                  <a href="./html_folder/img/portfolio/stroke_risk_summary.jpg" data-lightbox="roadtrip" title="Stroke Risk Summary"><img class="grayscale" src="./html_folder/img/portfolio/stroke_risk_summary_thumbnail.jpg" alt="Stroke Risk Summary"></a>
+                  <a href="./html_folder/img/portfolio/stroke_risk_summary.jpg" data-lightbox="roadtrip" title="Stroke Risk Summary">
+                    <img class="grayscale" src="./html_folder/img/portfolio/stroke_risk_summary_thumbnail.jpg" alt="Stroke Risk Summary">
+                  </a>
               </div>
           </div>
       </div>
@@ -430,7 +456,7 @@
 		<!-- ==========================
         CUSTOM SPACER
         =========================== -->
-		<div class="spacer-cta text-center">
+		<div onclick="event.stopPropagation()" class="spacer-cta text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -557,24 +583,24 @@
             <div class="col-md-4">
               <div class="dark-box box-hover">
                 <h2><i class="fa fa-user-circle"></i><span>Tanisha Cooper</span></h2>
-                <p><a href="https://github.com/TanishaCooper" target="_blank">GitHub</a></p>
-                <p><a href="https://www.linkedin.com/in/tanisha-cooper-5b3743197/" target="_blank">LinkedIn</a></p>
+                <p><a onclick="event.stopPropagation()" href="https://github.com/TanishaCooper" target="_blank">GitHub</a></p>
+                <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/tanisha-cooper-5b3743197/" target="_blank">LinkedIn</a></p>
               </div>
             </div>
 			  <!-- Phone Number Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-user-circle"></i><span>Diandra McNeill</span></h2>
-                  <p><a href="https://github.com/dmcneill0711" target="_blank">GitHub</a></p>
-                  <p><a href="https://www.linkedin.com/in/diandra-mcneill-765410233/" target="_blank">LinkedIn</a></p>
+                  <p><a onclick="event.stopPropagation()" href="https://github.com/dmcneill0711" target="_blank">GitHub</a></p>
+                  <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/diandra-mcneill-765410233/" target="_blank">LinkedIn</a></p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-user-circle"></i><span>Anna Pettigrew</span></h2>
-                  <p><a href="https://github.com/annapettigrew" target="_blank">GitHub</a></p>
-                  <p><a href="https://www.linkedin.com/in/anna-pettigrew/" target="_blank">LinkedIn</a></p>
+                  <p><a onclick="event.stopPropagation()" href="https://github.com/annapettigrew" target="_blank">GitHub</a></p>
+                  <p><a onclick="event.stopPropagation()" href="https://www.linkedin.com/in/anna-pettigrew/" target="_blank">LinkedIn</a></p>
                 </div>
               </div>
             </div>
@@ -687,6 +713,8 @@
       speed: 2000 // How many milliseconds until the next word show.
     });
     </script>
-	
+<!-- Magnifier Test -->
+	</div>
+<!-- End -->
     </body>
 </html>

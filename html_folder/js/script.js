@@ -292,3 +292,25 @@ function viewResult(){
 startButton.addEventListener("click",startQuiz);
 
 
+// Magnifier Test
+function toggleZoomScreen125() {
+
+	if(document.body.style.zoom == "")
+	{
+		document.body.style.zoom = "100%";
+	}
+	if(document.body.style.zoom == "100%")
+	{
+		document.body.style.zoom = "125%";
+	}
+	else if(document.body.style.zoom == "125%")
+	{
+		document.body.style.zoom = "150%";
+	}
+	else
+	{
+		document.body.style.zoom = "100%";
+	}
+};
+
+// body.addEventListener("click",toggleZoomScreen);
