@@ -41,7 +41,7 @@
 	  	<!-- ==========================
         HEADER SECTION 
         =========================== -->
-        <header onclick="event.stopPropagation()" id="home">
+        <header onclick="event.stopPropagation(toggleZoomScreen125)" id="home">
 		    <!-- creative menu -->
             <div class="container-fluid">
               <div class="row">
@@ -121,10 +121,13 @@
                     While there are numerous studies that have tried (and are still trying!) to figure out what triggers strokes among 
                     various individuals, there are actually a few modifiable and non-modifiable risk factors that can increase your chances.</p>
                     <p><b>So...</b></p>
+                  <div>
+                  <h1 class="arrow" id="cardTitle"><span>Want to predict <strong>YOUR RISK </strong>of a stroke?</span></h1>
+                  <hr class="line">
+                  </div>
                   <!-- Begin Quiz main -->
                   <br>
-                  <h1 class="arrow" id="title"><span>Want to predict <strong>YOUR RISK </strong>of a stroke?</span></h1>
-                    <hr class="line">
+                    <br>
                     <div class="card shadow rounded border-info">               
                       <!-- Begin body -->
                       <div class="card-body">
@@ -136,8 +139,7 @@
                                       <h5 class="text-center">
                                           <b style="color: white;">Take Our Quick 3 Question Quiz To Find Out</b>
                                       </h5>
-                                      <br>
-                                      <div onclick="event.stopPropagation()" class="text-center" >
+                                      <div onclick="event.stopPropagation()">
                                           <button type="submit" id="startQuiz" class="btn bg-primary text-white rounded-pill mb-2">Start Quiz</button>
                                       </div>
                                   </div>
@@ -254,7 +256,7 @@
 				<div class="col-md-6 about-text">
 					<h6>Visualization: Stroke Risk Features </h6><!-- Headline-->
           <p><i><b>~Uncloak The Stroke!~</b></i></p>
-					<p>This interactive chart shows the number of adult patients from the study that had a stroke (580 out of the 4158), and then grouped them accordingly based on their ages, glucose levels, and BMIs. Try modifying the risk factors on the chart to see how the count of strokes increases or decreases.</p>
+					<p>This interactive chart shows the number of adult patients from the study that had a stroke (560 out of the 4158), and then grouped them accordingly based on their ages, glucose levels, and BMIs. Try modifying the risk factors on the chart to see how the count of strokes increases or decreases.</p>
           <p><u>Age:</u></p>
             <ul style="color: #ffffff">
               <li>Adult (18 And Older, But Younger Than 40) = Low Risk</li>

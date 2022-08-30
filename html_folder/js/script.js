@@ -133,7 +133,7 @@ var startButton = document.querySelector("#startQuiz");
 // Start Page Content Div
 var mainContent = document.querySelector("#mainContent");
 // Card Title
-var questionEl = document.querySelector("#title");
+var questionEl = document.querySelector("#cardTitle");
 // Question Options Div
 var quizContent = document.querySelector("#quizContent");
 // Div For Showing Answer Is Correct/wrong
@@ -183,7 +183,7 @@ function buildQuestion(){
         lowRisk = questions[questionIndex].lowRisk;
 
 // Display Question 
-        questionEl.innerHTML = questions[questionIndex].title;
+        questionEl.innerHTML = questions[questionIndex].cardTitle;
         questionEl.setAttribute("class","text-left");
         questionEl.style.display= "block";
 
@@ -270,7 +270,6 @@ function viewResult(){
     scoreDiv.appendChild(s);
 
 // Tell Them What Their Results Mean (Basically: <p></p> and appending)
-    
 
     var highRiskResults = document.createElement("p");
     highRiskResults.textContent = "If You Scored Over 6, you are considered to be a HIGH RISK for having a stroke.";
@@ -281,7 +280,7 @@ function viewResult(){
     scoreDiv.appendChild(mediumRiskResults);
 
     var lowRiskResults = document.createElement("p");
-    lowRiskResults.textContent = "If You Scored Below A 3, you are considered to be a LOW RISK for having a stroke. ";
+    lowRiskResults.textContent = "If You Scored A 3 Or Below, you are considered to be a LOW RISK for having a stroke. ";
     scoreDiv.appendChild(lowRiskResults);
     
     form.appendChild(label);
@@ -312,5 +311,3 @@ function toggleZoomScreen125() {
 		document.body.style.zoom = "100%";
 	}
 };
-
-// body.addEventListener("click",toggleZoomScreen);
