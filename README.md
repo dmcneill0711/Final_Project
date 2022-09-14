@@ -32,6 +32,9 @@
 <hr>
 <h2><u><b>Applying The Machine Learning:</b></u></h2>
 <p>With the data set in hand, we applied sklearn and imported all the dependencies needed to run our analysis. We dropped the patients that were classified as "children" and only worked with patients who were 18 and up. Then, we applied the pd.get_dummies onto our data and changed all of the object/string data types to int since the machine learning wouldn't work on previous data types. Now, we can set the y variable to the ["stroke"] column while assigning the rest of the dataset to the X, where we split the data into X_train, X_test, y_train, and y_test, and using the standard scaler to transform our data into z-scores as to not skew our results. Once scaled, we applied the Random Forest Classifier. In order to attempt to fine tune our model, we searched for the best hyper-parameters using the RandomizedSearchCV and applied those. Then we used the .best_params_ and applied those specifications, giving us our final model. </p>
+
+![import_feat](https://user-images.githubusercontent.com/100710958/190191011-a108b0eb-6ab4-435c-8109-02c3ecb8ddf2.png)
+
 <hr>
 <h2><u><b>Creating The fUZZbEED Page:</b></u></h2>
 
@@ -41,6 +44,9 @@
 </p>
 <p> Click Here To Visit The Site: <a href="https://dmcneill0711.github.io/What-s_Stroking_Your_Brain/">fUZZbEED</a><p/>
 <br>
+
+![Quiz](https://user-images.githubusercontent.com/100710958/190191474-ea862f60-1260-45ad-a53c-37ede121d233.png)
+
 <hr>
 <h2><u><b>Contributors:</b></u></h2>
 <h3>Tanisha Cooper</h3>
